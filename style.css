@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  background-image: url('/assets/img5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 5%;
+  left: 0;
+  padding: 25px 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #7cf03d;
+}
+
+/* Main Content */
+.main-content {
+  padding-top: 250px; /* space below fixed navbar */
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.main-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main-content h2 span {
+  display: block;
+  font-size: 45px;
+  margin-top: -15px;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.main-content p.details {
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-right: 250px;
+}
+
+.main-content .btn {
+  margin-top: 25px;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.main-content .btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main-content .btn:hover {
+  background-color: #7cf03d;
+  color: #000;
+}
